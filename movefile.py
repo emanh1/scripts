@@ -24,8 +24,8 @@ def move_files(source_folder, destination_folder):
         print(f"Moved: {file_name} to {destination_folder}")
 
 if __name__ == "__main__":
-    download_folder = "
-    downloadcorrect = "
+    download_folder = ""
+    downloadcorrect = ""
     screenshot = ""
     screenshotcorrect = ""
     recording = ""
