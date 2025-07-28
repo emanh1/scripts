@@ -11,7 +11,7 @@ def parse_and_save_markdown(input_file, output_file):
 
     with open(output_file, 'w', encoding='utf-8') as md:
         for idx, row in enumerate(rows, 1):
-            if "xdexdexde" in row:
+            if TERM_DEFINITION_SEP in row:
                 question, answer = row.split(TERM_DEFINITION_SEP, 1)
                 question = question.strip()
                 answer = answer.strip()
